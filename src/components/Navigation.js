@@ -7,9 +7,9 @@ const Navigation = () => {
     <div>
       <Navbar sticky="top" collapseOnSelect expand="md" style={{ backgroundColor: "#202020" }} variant="dark">
         <Container>
-          <Link to="/">
+          {/* <Link to="/">
             <img src="/marvel.png" width="80" height="40" className="d-inline-block align-top" alt="React Bootstrap logo" />
-          </Link>
+          </Link> */}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
