@@ -1,9 +1,8 @@
-import React, { useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 
 const CharacterDetails = (props) => {
   console.log(props);
-  const { charId } = useParams();
   if (props.characters.data) {
     var resultnya = props.characters.data.results[0];
     return (
